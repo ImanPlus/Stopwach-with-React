@@ -14,14 +14,14 @@ const useStyles = makeStyles((theme) => ({
   },
   clockHolder: {
     width: '100%',
-    background: '#fff',
+    background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
     margin: '30px auto',
     borderRadius: 5,
     '& h1': {
       textAlign: 'center',
       paddingTop: 20,
-    }
-  },
+    },
+},
   stopWatch: {
     padding: '60px 0px',
     display: 'flex',
